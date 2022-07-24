@@ -1,0 +1,39 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+}
+.bgContainer {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.superHeading {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 35px;
+  margin-bottom: 12px;
+}
+.images {
+  width: 150px;
+  height: 150px;
+}
+.imgContainer {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .superHeading {
+    font-size: 48px;
+  }
+  .images {
+    width: 250px;
+    height: 250px;
+  }
+}
